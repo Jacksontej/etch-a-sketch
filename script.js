@@ -3,6 +3,7 @@ const gridContainer = document.querySelector('.container');
 const sixteenth = document.createElement('div');
 sixteenth.classList.add('box');
 sixteenth.style.backgroundColor = '#f6f5f2ff'
+sixteenth.style.opacity = 0.1
 const fragment = new DocumentFragment();
 
 function removeElementsbyClass(box) {
